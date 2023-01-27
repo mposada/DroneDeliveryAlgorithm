@@ -38,7 +38,6 @@ fun distributeDeliveries(drones: ArrayList<Drone>, locations: ArrayList<Location
 
     // Sort the locations by weight in descending order
     locations.sortBy { it.weight }
-    locations.sortBy { it.weight }
     // Sort the drones by weight in ascending order
     drones.sortByDescending { it.maxWeight }
 
